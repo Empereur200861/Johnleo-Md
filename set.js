@@ -26,9 +26,9 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
 module.exports = { session: process.env.SESSION_ID || '',
-    PREFIXE: process.env.PREFIX || ".",
-    OWNER_NAME: process.env.OWNER_NAME || "Johnleo",
-    NUMERO_OWNER : process.env.NUMERO_OWNER || " Johnleo",              
+    PREFIXE: process.env.PREFIX || "menu",
+    OWNER_NAME: process.env.OWNER_NAME || "mikaelson DEATH",
+    NUMERO_OWNER : process.env.NUMERO_OWNER || " 242057954499",              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'no',
     BOT : process.env.BOT_NAME || 'JohnleoMD',
